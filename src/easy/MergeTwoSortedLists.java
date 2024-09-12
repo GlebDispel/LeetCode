@@ -1,6 +1,6 @@
+package easy;
 
-
-  class ListNode {
+class ListNode {
       int val;
       ListNode next;
      ListNode() {}
@@ -11,7 +11,7 @@
 
       @Override
       public String toString() {
-          return "ListNode{" +
+          return "easy.ListNode{" +
                   "val=" + val +
                   ", next=" + next +
                   '}';

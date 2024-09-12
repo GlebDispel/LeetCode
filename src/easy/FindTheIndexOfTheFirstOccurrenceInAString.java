@@ -1,3 +1,5 @@
+package easy;
+
 public class FindTheIndexOfTheFirstOccurrenceInAString {
     public int strStr(String haystack, String needle) {
 

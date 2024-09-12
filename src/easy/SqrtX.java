@@ -1,3 +1,5 @@
+package easy;
+
 public class SqrtX {
     public int mySqrt(int x) {
 

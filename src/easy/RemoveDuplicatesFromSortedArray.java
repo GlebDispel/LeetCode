@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package easy;
 
 public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
