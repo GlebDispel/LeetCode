@@ -1,22 +1,37 @@
 package easy;
 
-import java.util.Arrays;
+import org.w3c.dom.Node;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        MergeSortedArray mergeSortedArray = new MergeSortedArray();
-        int[] nums1 = {1,2,3,0,0,0};
-        int[] nums2 = {2,5,6};
-        mergeSortedArray.merge(nums1,3,nums2,nums2.length);
+        BinaryTree bt = new BinaryTree();
+        BinaryTree bt2 = new BinaryTree();
+        Solution sol = new Solution();
 
-        System.out.println(Arrays.toString(nums1));
+        bt.root = new TreeNode(1);
+        bt.root.left = new TreeNode(2);
+        bt.root.right = new TreeNode(2);
+       bt.root.left.left = new TreeNode(4);
+       bt.root.right.right = new TreeNode(4);
 
-        }
+        System.out.println(sol.isSymmetric(bt.root));
+
 
 
 
     }
+
+
+    
+
+}
+
+
 
 
 
